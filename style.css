@@ -56,11 +56,42 @@ a {
 
 .imagen {
     border: 4px solid blue;
+    border-radius: 15%;
     width: 100px;
     height: 100px;
 }
 
 .imagen-texto {
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
+
+.seccion3 {
+    background-color: #e5e7eb;
+    height: 400px;
+}
+
+.centraar {
+    width: 50%;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.autor {
+    justify-self: flex-end;
+}
+/* 
+.seccion3 div {
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+}
+
+.cita {
+    margin-top: 50px;
+}
+
+.autor {
+    margin-bottom: 80px;
+} */
 
