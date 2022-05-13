@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.seccion1{
+    background-color: #1f2937;
+
+}
+.header {
+    justify-content: space-around;
+    padding-top: 20px;
+    margin-bottom: 150px;
+}
+.seccion1 ul {
+    gap: 25px;
+    list-style: none;
+}
+
+.seccion1 h3{
+    color: #f9faf8;
+}
+
+a {
+    text-decoration: none;
+}
+
+.seccion1 a{
+    color: #f9faf8;
+}
+
+.presentacion {
+    justify-content: center;
+    max-width: 50%;
+    padding-bottom: 150px;
+}
+
+.contenedor-img {
+    background-color: burlywood;
+    height: 150px;
+    width: 300px;
+}
+
