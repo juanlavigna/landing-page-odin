@@ -35,7 +35,8 @@ a {
 
 .presentacion {
     justify-content: center;
-    max-width: 50%;
+    max-width: 70%;
+    gap:30px;
     padding-bottom: 150px;
 }
 
@@ -112,7 +113,7 @@ a {
     justify-content: center;
     align-items: center;
     background-color: white;
-    height: 250px;
+    height: 350px;
 }
 
 .rectanguloAzul {
@@ -144,5 +145,10 @@ footer {
 }
 
 footer p {
+    color: white;
+}
+
+.seccion1 h1,
+.seccion1 p {
     color: white;
 }
